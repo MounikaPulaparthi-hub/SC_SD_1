@@ -1,79 +1,87 @@
-# SC_SD_1# 🧩 Sudoku Solver Pro
+# 🌡️ Temperature Converter
 
-## Overview
+##  Overview
 
-Sudoku Solver Pro is a Java Swing-based desktop application that automatically solves Sudoku puzzles using the Backtracking Algorithm.
+Temperature Converter is a Java Swing-based desktop application designed to convert temperature values between Celsius, Fahrenheit, and Kelvin scales.
 
-The application provides an interactive graphical user interface where users can enter Sudoku puzzles manually or load predefined difficulty levels. The program efficiently finds a valid solution and displays the completed puzzle instantly.
-
-This project demonstrates problem-solving skills, recursive algorithms, object-oriented programming concepts, and GUI development using Java Swing.
+The application provides a simple and user-friendly graphical interface where users can enter a temperature value, select the temperature scale, and instantly view the converted results. The project demonstrates Java GUI development, event handling, and mathematical calculations.
 
 ---
 
-## Features
+##  Features
 
--  Modern Navy Blue User Interface
--  Interactive 9×9 Sudoku Grid
--  Automatic Sudoku Solving
--  Score Tracking
--  Easy, Medium, and Hard Difficulty Levels
--  Clear Board Functionality
--  User-Friendly Design
--  Fast Backtracking Algorithm
--  Suitable for Academic and Internship Projects
+-  Convert Celsius to Fahrenheit and Kelvin
+-  Convert Fahrenheit to Celsius and Kelvin
+-  Convert Kelvin to Celsius and Fahrenheit
+-  User-Friendly Java Swing Interface
+-  Instant Conversion Results
+-  Input Validation and Error Handling
+-  Lightweight Desktop Application
+-  Beginner-Friendly and Easy to Use
 
 ---
 
-##  Technologies Used
+## 🛠️ Technologies Used
 
 - Java
 - Java Swing
+- Event Handling
 - Object-Oriented Programming (OOP)
-- Backtracking Algorithm
 
 ---
 
-## Algorithm Used
+## 📐 Temperature Conversion Formulas
 
-The application uses the **Backtracking Algorithm** to solve Sudoku puzzles.
+### Celsius to Fahrenheit
 
-### Steps
+```text
+°F = (°C × 9/5) + 32
+```
 
-1. Find an empty cell.
-2. Try numbers from 1 to 9.
-3. Check whether the number is valid:
-   - Row validation
-   - Column validation
-   - 3×3 sub-grid validation
-4. If valid, place the number.
-5. Recursively solve the remaining cells.
-6. If no solution exists, backtrack and try another number.
+### Celsius to Kelvin
 
-This approach guarantees a valid solution whenever one exists.
+```text
+K = °C + 273.15
+```
+
+### Fahrenheit to Celsius
+
+```text
+°C = (°F − 32) × 5/9
+```
+
+### Kelvin to Celsius
+
+```text
+°C = K − 273.15
+```
 
 ---
 
 ## 📂 Project Structure
 
-```
-SudokuSolverGUI.java
-README.md
+```text
+Temperature-Converter-Java
+│
+├── TemperatureConverter.java
+├── README.md
+└── screenshots
 ```
 
 ---
 
-## How to Run
+##  How to Run
 
-### Compile
+### Step 1: Compile
 
 ```bash
-javac SudokuSolverGUI.java
+javac TemperatureConverter.java
 ```
 
-### Execute
+### Step 2: Execute
 
 ```bash
-java SudokuSolverGUI
+java TemperatureConverter
 ```
 
 ---
@@ -81,48 +89,57 @@ java SudokuSolverGUI
 ##  How to Use
 
 1. Launch the application.
-2. Select Easy, Medium, or Hard puzzle.
-3. Enter values manually if desired.
-4. Click the **Solve** button.
-5. The application automatically solves the puzzle.
-6. Use the **Clear** button to reset the board.
+2. Enter a temperature value.
+3. Select the temperature scale.
+4. Click the Convert button.
+5. View the converted temperature values instantly.
 
 ---
 
 ## 📸 Screenshots
 
-Add screenshots here after running the application.
+Add screenshots after running the application.
 
-Example:
+Suggested screenshots:
 
 - Main Interface
-- Solved Sudoku Puzzle
-- Difficulty Selection
+- Celsius Conversion Example
+- Fahrenheit Conversion Example
+- Kelvin Conversion Example
 
 ---
 
-##  Learning Outcomes
+## Learning Outcomes
 
 This project helped in understanding:
 
-- Recursive Programming
-- Backtracking Techniques
 - Java Swing GUI Development
 - Event Handling
-- Data Validation
-- Problem Solving Skills
+- Mathematical Computations
+- User Input Validation
+- Object-Oriented Programming Concepts
+- Desktop Application Development
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
-- Timer System
-- Hint Generation
-- Dark/Light Themes
-- Save and Load Puzzle Feature
-- Leaderboard System
-- Sound Effects
-- Puzzle Generator
+- Dark Mode Support
+- Temperature Conversion History
+- Scientific Calculator Integration
+- Multiple Unit Converter
+- Export Results to File
+- Responsive UI Design
+
+---
+
+## 💡 Real-World Applications
+
+- Educational Tools
+- Weather Applications
+- Scientific Calculations
+- Engineering Utilities
+- Physics and Chemistry Projects
 
 ---
 
@@ -132,11 +149,10 @@ Mounika Pulaparthi
 
 B.Tech Computer Science Engineering Student
 
-Passionate about Java Development, Data Structures & Algorithms, Problem Solving, and Software Engineering.
+Interested in Java Development, Data Structures & Algorithms, Software Engineering, and Problem Solving.
 
 ---
 
 ## ⭐ Acknowledgements
 
-This project was developed as part of software development practice and internship project work to strengthen Java programming and algorithmic problem-solving skills.
-A Java Swing GUI application that converts temperatures between Celsius, Fahrenheit and Kelvin scales.
+This project was developed as part of Java programming practice and software development learning to strengthen GUI development and application design skills.
